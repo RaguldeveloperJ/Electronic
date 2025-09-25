@@ -106,7 +106,7 @@ nav ul li a {
 
 .about img {
     
-    width: 400px;
+    width: 100%;
     border-radius: 20px;
     box-shadow: 2px 2px 4px #edf2ef;
 }
@@ -135,7 +135,7 @@ nav ul li a {
 }
 
 .aboutus p {
-    width: 400px;
+    width: 100%;
     font-size: 20px;
     line-height: 1.6;
 }
