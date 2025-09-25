@@ -264,7 +264,7 @@ nav ul li a {
 
 .contact {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
     gap: 20px;
@@ -273,7 +273,6 @@ nav ul li a {
 }
 
 .contact-form {
-    width: 40%;
     background: linear-gradient(to right, #cbc2a33b, #c6c6be10);
     border: 1px solid gray;
     padding: 30px;
@@ -322,9 +321,7 @@ textarea::placeholder {
     margin-top: 50px;
 }
 
-.details h3 {
-    display: flex;
-    flex-wrap: wrap;
+.details {
     font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
     color: white;
