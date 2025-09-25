@@ -45,8 +45,7 @@ nav ul li a {
 .logo h3 {
     color: gold;
     font-size: 25px;
-    float: left;
-
+    text-shadow: 2px 2px 5px black;
 
 }
 
