@@ -274,7 +274,7 @@ nav ul li a {
 .contact-form {
     background: linear-gradient(to right, #cbc2a33b, #c6c6be10);
     border: 1px solid gray;
-    padding: 20px;
+    padding: 15px;
     line-height: 50px;
     display: flex;
     justify-content: space-around;
