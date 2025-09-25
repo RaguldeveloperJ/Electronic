@@ -42,3 +42,4 @@ hamburger.onclick=function toggleMenu() {
         menulist.style.maxHeight = "0px";
     }
 } 
+
