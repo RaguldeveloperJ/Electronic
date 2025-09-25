@@ -31,15 +31,20 @@ let fetchProduct = async () => {
 }
 fetchProduct();
 let hamburger = document.querySelector(".hamburger");
+let closed = document.querySelector("#close");
 let menulist = document.querySelector("#menulist")
 menulist.style.maxHeight = "0px";
 
-hamburger.onclick=function toggleMenu() {
+hamburger.onclick=function () {
     if (menulist.style.maxHeight === "0px") {
         menulist.style.maxHeight = "300px";
+        hamburger.classList.remove("fa-bars");
+        hamburger.classList.add("fa-times");
     }
     else {
         menulist.style.maxHeight = "0px";
+        hamburger.classList.remove("fa-times");
+        hamburger.classList.add("fa-bars");
     }
 } 
 

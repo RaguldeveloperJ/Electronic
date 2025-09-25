@@ -52,6 +52,8 @@ nav ul li a {
 
 .menu-icon {
     display: none;
+    cursor: pointer;
+    
 }
 
 .menu-icon i {
@@ -60,17 +62,16 @@ nav ul li a {
 
 }
 
+
 @media screen and (max-width: 600px) {
     nav ul {
-        position: absolute;
-        top: 0px;
-        left: 0;
-        right: 0;
+        position: sticky;
         flex-direction: column;
-        float: left;
-        background-color: rgba(128, 128, 128, 0.151);
         gap: 0;
+        max-height: 0;
         overflow: hidden;
+        transition: max-height 0.5s ease-out;
+        
     }
 
     nav ul li {
@@ -80,12 +81,12 @@ nav ul li a {
 
     .menu-icon {
         display: block;
-
+        
     }
-
     #menulist {
-        transition: max-height 0.5s ease-out;
-    }
+    width: 300px;
+}
+    
 }
 
 .home img {
